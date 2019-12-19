@@ -72,7 +72,7 @@ def movies_with_directors_set(source)
     hash = source[i]
     h_name = hash[:name]
     h_movies = hash[:movies]
-    a_o_a_movies_by_dir << movies_with_director_key(director_name, directors_movies)
+    array << movies_with_director_key(h_name,h_movies)
     i += 1
   end
 
