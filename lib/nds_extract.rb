@@ -76,7 +76,6 @@ def movies_with_directors_set(source)
     i += 1
   end
   array
-
 end
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
@@ -88,7 +87,7 @@ end
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
-end
+
 # ----------------    End of Your Code Region --------------------
 # Don't edit the following code! Make the methods above work with this method
 # call code. You'll have to "see-saw" to get this to work!
